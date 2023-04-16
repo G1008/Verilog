@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="fre_meter">
+		<CBX_INST_ENTRY INSTANCE_NAME="|freq_meter|freq_meter_calc:freq_meter_calc_inst|clk_stand:clk_stand_inst|altpll:altpll_component" CBX_FILE_NAME="clk_stand_altpll.v"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|freq_meter|lpm_divide:Div0" CBX_FILE_NAME="lpm_divide_dkm.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|freq_meter|sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|altdpram:\stp_non_zero_ram_gen:attribute_mem_gen:attribute_mem|lpm_decode:wdecoder" CBX_FILE_NAME="decode_dvf.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|freq_meter|sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|sld_offload_buffer_mgr:\stp_non_zero_depth_offload_gen:stp_offload_buff_mgr_inst|LPM_COUNTER:status_read_pointer_counter" CBX_FILE_NAME="cntr_23j.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|freq_meter|clk_test:clk_test_inst|altpll:altpll_component" CBX_FILE_NAME="clk_test_altpll.v"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|freq_meter|freq_meter_calc:freq_meter_calc_inst|lpm_divide:Div0" CBX_FILE_NAME="lpm_divide_tkm.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|freq_meter|freq_meter_calc:freq_meter_calc_inst|lpm_mult:Mult0" CBX_FILE_NAME="mult_8ht.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|freq_meter|sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|altdpram:\stp_non_zero_ram_gen:attribute_mem_gen:attribute_mem|lpm_mux:mux" CBX_FILE_NAME="mux_psc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|freq_meter|sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|sld_offload_buffer_mgr:\stp_non_zero_depth_offload_gen:stp_offload_buff_mgr_inst|LPM_COUNTER:\adv_point_3_and_more:advance_pointer_counter" CBX_FILE_NAME="cntr_8ii.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|freq_meter|sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|sld_offload_buffer_mgr:\stp_non_zero_depth_offload_gen:stp_offload_buff_mgr_inst|LPM_COUNTER:read_pointer_counter" CBX_FILE_NAME="cntr_89j.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|freq_meter|sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|altsyncram:\stp_non_zero_ram_gen:stp_buffer_ram" CBX_FILE_NAME="altsyncram_c424.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|freq_meter|sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|sld_offload_buffer_mgr:\stp_non_zero_depth_offload_gen:stp_offload_buff_mgr_inst|LPM_COUNTER:status_advance_pointer_counter" CBX_FILE_NAME="cntr_cgi.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

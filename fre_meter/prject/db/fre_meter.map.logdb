@@ -1,0 +1,7 @@
+v1
+DSP_BALANCING_IMPLEMENTATION,DSP_BLOCKS,freq_meter_calc:freq_meter_calc_inst|lpm_mult:Mult0|mult_8ht:auto_generated|mac_out4,
+DSP_BALANCING_IMPLEMENTATION,DSP_BLOCKS,freq_meter_calc:freq_meter_calc_inst|lpm_mult:Mult0|mult_8ht:auto_generated|mac_out6,
+DSP_BALANCING_IMPLEMENTATION,DSP_BLOCKS,freq_meter_calc:freq_meter_calc_inst|lpm_mult:Mult0|mult_8ht:auto_generated|mac_out10,
+DSP_BALANCING_IMPLEMENTATION,DSP_BLOCKS,freq_meter_calc:freq_meter_calc_inst|lpm_mult:Mult0|mult_8ht:auto_generated|mac_out12,
+DSP_BALANCING_IMPLEMENTATION,DSP_BLOCKS,freq_meter_calc:freq_meter_calc_inst|lpm_mult:Mult0|mult_8ht:auto_generated|mac_out8,
+DSP_BALANCING_IMPLEMENTATION,DSP_BLOCKS,freq_meter_calc:freq_meter_calc_inst|lpm_mult:Mult0|mult_8ht:auto_generated|mac_out2,
